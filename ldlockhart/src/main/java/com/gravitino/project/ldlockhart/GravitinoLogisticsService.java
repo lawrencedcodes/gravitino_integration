@@ -22,7 +22,7 @@ public class GravitinoLogisticsService {
 
             // 1. Create the Metalake
             GravitinoMetalake metalake = adminClient.createMetalake(
-                    NameIdentifier.of(METALAKE_NAME),
+                    METALAKE_NAME,
                     "Global Logistics Metalake",
                     Map.of()
             );
