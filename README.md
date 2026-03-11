@@ -3,9 +3,9 @@
 ![Java](https://img.shields.io/badge/Java-17-orange.svg) ![Spring Boot](https://img.shields.io/badge/SpringBoot-3.x-brightgreen.svg) ![Apache Gravitino](https://img.shields.io/badge/Apache_Gravitino-1.1.0-blue.svg) ![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)
 
 ## Overview
-For enterprise backend engineers, transitioning to the modern Data Lakehouse can be daunting. This repository provides a frictionless, zero-to-one integration guide demonstrating how to manage Lakehouse metadata using **Apache Gravitino** and a standard **Java Spring Boot** application.
+This repository provides a frictionless, zero-to-one integration guide demonstrating how to manage Lakehouse metadata using **Apache Gravitino** and a standard **Java Spring Boot** application.
 
-This prototype programmatically builds a federated metadata tree (`Metalake -> Catalog -> Schema`) using the official Gravitino Java Client, simulating a real-world enterprise logistics data architecture.
+This prototype builds a federated metadata tree (`Metalake -> Catalog -> Schema`) using the official Gravitino Java Client, simulating a real-world enterprise logistics data architecture.
 
 ## 🏗️ Architecture: The Metadata Tree
 This application connects to a local Gravitino server via REST and establishes the following federated governance hierarchy:
